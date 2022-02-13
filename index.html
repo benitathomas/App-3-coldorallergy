@@ -38,6 +38,8 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 <script>
         var allergy_count = 0;
         var cold_count = 0;
+	
+	//adds one when corresponding button is pressed.
 
 
         function allergyAdd(){
@@ -153,7 +155,13 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	</div>
 	<!--the final result-->
 	
+	
+	<div id="content" class="w3-container">
+		
+		<a href="#six"  onclick="results();" class="w3-btn w3-blue w3-round-xxlarge"> Show Results </a> 
+		<!--when button is clicked, results fuction runs and displays results on page six-->
 	<div class="page" id="six">
+		
 	<h1>Final Result</h1>
 		
 		<a href="#six"  onclick="results();" class="w3-btn w3-red w3-round-xxlarge"> Show Results </a> 
