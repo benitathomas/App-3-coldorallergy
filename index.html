@@ -17,10 +17,10 @@ Timothy Riedel
 triedel@utexas.edu
  
 Brief Description of Goal of Code:
-blah, blah, blah,
+Figure out if the symptoms are colr or allergy related.
  
 Known Issues:
-blah, blah, blah, blah
+Result won't show up
 
 https://www.w3schools.com/w3css/default.asp
 https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-file
@@ -55,8 +55,8 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	
 	
 	function results(){
-		var allergyPercent = (allergy_count/4.0) * 100; // imputs allergy variable divided by total (4) then * 100 to get percentage
-		var coldPercent = (cold_count/4.0) * 100;
+		var allergyPercent = (allergy_count/4) * 100; // imputs allergy variable divided by total (4) then * 100 to get percentage
+		var coldPercent = (cold_count/4) * 100;
 		var resultText = document.getElementById("results"); //captures the results and when 'Final Result' button is pressed
 		resultText.innerHTML = "Probability it's allergies =" + allergyPercent + "%" + "<br> Probability it's a cold =" + coldPercent + "%";
 		<!-- imputs results on page using IDs; <br> means line break; printed variable with "+" -->
